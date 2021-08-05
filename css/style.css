@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montez", cursive;
+}
+
+p,
+.link {
+  font-family: "New Tegomin", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  padding: 8px 24px;
+  font-size: 18px;
+  color: #c4bfa7;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  -webkit-transform: translate(32%, -50%);
+          transform: translate(32%, -50%);
+  background-color: #c4bfa7;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.link:hover::after {
+  width: 60%;
+}
+
+h1 {
+  font-size: 72px;
+  color: #c4bfa7;
+}
+
+h2 {
+  font-size: 56px;
+  color: #f7b24c;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 24px;
+  color: #f7b24c;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.fab {
+  font-size: 24px;
+  color: #c4bfa7;
+}
+
+body {
+  width: 100%;
+  background-color: #192235;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.menu {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 36px 16px;
+}
+/*# sourceMappingURL=style.css.map */

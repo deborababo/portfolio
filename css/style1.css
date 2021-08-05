@@ -1,0 +1,67 @@
+/**************** My code ****************/
+
+.welcome {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #192235;
+  position: relative;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* margin-top: 0; */
+}
+
+.name,
+.personal-title {
+  position: absolute;
+
+  white-space: nowrap;
+  font-family: "Montez", cursive;
+  color: #c4bfa7;
+  left: 0;
+  top: 0;
+}
+.name h1 {
+  position: absolute;
+  left: 20.63vw;
+  top: 21.85vh;
+  font-size: 144px;
+  line-height: 188px;
+  color: #c4bfa7;
+}
+.personal-title {
+  font-family: Montez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 94px;
+  color: #f7b24c;
+}
+#developer {
+  position: absolute;
+  left: 53.54vw;
+  top: 57.5vh;
+}
+#aeronautical {
+  position: absolute;
+  left: 42.26vw;
+  top: 69.16vh;
+}
+#best-friend {
+  position: absolute;
+  left: 53.54vw;
+  top: 80.83vh;
+}
+u {
+  text-decoration: underline wavy #f7997d;
+}

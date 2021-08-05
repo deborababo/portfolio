@@ -1,0 +1,79 @@
+// Font-family
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montez", cursive;
+}
+
+p,
+.link {
+  font-family: "New Tegomin", serif;
+}
+a {
+  text-decoration: none;
+}
+
+.link {
+  padding: 8px 24px;
+  font-size: 18px;
+  color: $bege-normal;
+
+  transition: 0.5s ease;
+
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 0%;
+    height: 2px;
+
+    transform: translate(32%, -50%);
+    background-color: $bege-normal;
+
+    transition: 0.5s ease;
+  }
+
+  &:hover {
+    opacity: 0.7;
+
+    &::after {
+      width: 60%;
+    }
+  }
+}
+
+// Font size
+h1 {
+  font-size: 72px;
+  color: $bege-normal;
+}
+h2 {
+  font-size: 56px;
+  color: $yellow-normal;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 24px;
+  color: $yellow-normal;
+}
+h6 {
+  font-size: 18px;
+}
+.fab {
+  font-size: 24px;
+  color: $bege-normal;
+}
