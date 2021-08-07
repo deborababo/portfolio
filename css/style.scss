@@ -3,16 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import "sass/normalize";
+@import "sass/reset";
+@import "sass/grid";
 @import "sass/colors";
 @import "sass/tipography";
 
 body {
   width: 100%;
+
   background-color: $blue-dark;
 }
+
 // Aux Classes
 .border {
   border: 1px solid red;
 }
 @import "sass/layout";
 @import "sass/spacing";
+@import "sass/responsive";

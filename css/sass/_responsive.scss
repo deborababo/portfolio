@@ -1,0 +1,30 @@
+// Media Queries - maybe do more... this to 960 maybe applicable for smaller screens????
+
+@media screen and (max-width: 960px) {
+  // ***************** Typography***************************
+
+  h1 {
+    font-size: 5.063;
+  }
+  h2 {
+    font-size: 3.357rem;
+  }
+
+  // ***************** Header Section ***************************
+  // Menu-Nav
+  .menu-left,
+  .menu-right {
+    display: none;
+  }
+
+  // Container-hero
+  .hero {
+    height: auto;
+  }
+  .container-hero {
+    flex-direction: column;
+  }
+  .container-item {
+    margin: 20px 0;
+  }
+}

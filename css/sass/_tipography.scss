@@ -6,8 +6,11 @@ h4,
 h5,
 h6 {
   font-family: "Montez", cursive;
+  font-weight: 400;
 }
-
+p {
+  margin-bottom: 1rem;
+}
 p,
 .link {
   font-family: "New Tegomin", serif;
@@ -18,7 +21,7 @@ a {
 
 .link {
   padding: 8px 24px;
-  font-size: 18px;
+  font-size: 1.5rem;
   color: $bege-normal;
 
   transition: 0.5s ease;
@@ -37,7 +40,7 @@ a {
     height: 2px;
 
     transform: translate(32%, -50%);
-    background-color: $bege-normal;
+    background-color: $peach-normal;
 
     transition: 0.5s ease;
   }
@@ -53,27 +56,80 @@ a {
 
 // Font size
 h1 {
-  font-size: 72px;
+  font-size: 7.594rem;
   color: $bege-normal;
 }
 h2 {
-  font-size: 56px;
+  font-size: 5.063rem;
+  line-height: 110%;
   color: $yellow-normal;
 }
 h3 {
-  font-size: 40px;
+  font-size: 3.375rem;
+  line-height: 110%;
 }
+
 h4 {
-  font-size: 32px;
+  font-size: 2.25rem;
+  color: $yellow-normal;
+  line-height: 120%;
 }
 h5 {
-  font-size: 24px;
-  color: $yellow-normal;
+  font-size: 1.5rem;
+  line-height: 140%;
 }
 h6 {
-  font-size: 18px;
+  font-size: 1rem;
+  line-height: 150%;
 }
+// small, .text_small {font-size: 0.667rem;}
+// icons
 .fab {
-  font-size: 24px;
+  font-size: 2rem;
   color: $bege-normal;
+}
+
+.container-item h2 u {
+  text-decoration: underline wavy $peach-normal;
+  transition: 0.5s ease;
+  &:hover {
+    font-size: 5.2rem;
+    color: $peach-dark;
+    text-decoration: underline wavy $yellow-dark;
+    opacity: 0.8;
+  }
+}
+
+// Call to action
+
+.call a {
+  padding: 16px 24px;
+  margin-bottom: 1.5rem;
+
+  transition: 0.5s ease;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 0%;
+    height: 2px;
+
+    transform: translate(32%, -50%);
+    background-color: $peach-normal;
+
+    transition: 0.5s ease;
+  }
+
+  &:hover {
+    opacity: 0.7;
+    &::after {
+      width: 60%;
+    }
+  }
 }
