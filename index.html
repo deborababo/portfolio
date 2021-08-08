@@ -39,26 +39,26 @@
             <!-- Navegation Menu -->
             <nav class="menu ">
                 <div class="menu-left ">
-                    <a href="" class="link">Welcome</a>
-                    <a href="" class="link">About</a>
+                    <a href="#welcome" class="link">Welcome</a>
+                    <a href="#about_me" class="link">About</a>
                 </div>
                 <div class="menu-logo ">
-                    <h4>DeboraBabo.</h4>
+                    <h4>DéboraBabo.</h4>
                 </div>
                 <div class="menu-right ">
-                    <a href="" class="link">Works</a>
-                    <a href="" class="link">Get in touch</a>
+                    <a href="#selected_work" class="link">Works</a>
+                    <a href="#contact" class="link">Get in touch</a>
                 </div>
 
             </nav>
-            <section class="container-hero hero ">
-                <div class="container-item ">
+            <section class="container-hero hero" id="Welcome">
+                <div class="container-item mt-5">
                     <h1>Débora Babo</h1>
                 </div>
-                <div class="container-item">
-                    <h2 class="align-right">a <u>front-end </u>developer</h2>
-                    <h2 class="align-left">an aeronautical <u>engineer</u></h2>
-                    <h2 class="align-right">your next <u>best </u>friend!</h2>
+                <div class="container-item mb-5">
+                    <h2 class="align-right">a <a href="#selected_work"> <u>front-end </u></a>developer</h2>
+                    <h2 class="align-left">an aeronautical <a href="#about_me"><u>engineer</u></a></h2>
+                    <h2 class="align-right">your next <a href="#contact"><u>best </u></a>friend!</h2>
                 </div>
 
                 <!-- <article>Like a weather widget and see the rules to use in this article</article> -->
@@ -70,8 +70,8 @@
                 </div>
             </section>
         </header>
-        <div class="relative">
-            <div class="bg-hero">
+        <!-- <div class="relative">
+            <div class="bg-hero container">
                 <svg class="svg-hero" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="bg-hero SVG" clip-path="url(#clip0)">
                         <path id="bg-hero1"
@@ -92,7 +92,18 @@
                 </svg>
             </div>
 
-        </div>
+        </div> -->
+        <main>
+            <section class="about_me container hero pl-2" id="about_me">
+                <h2>About Me</h2>
+            </section>
+            <section class="selected_work container hero pl-2" id="selected_work">
+                <h2>Selected Work</h2>
+            </section>
+            <section class="contact container hero pl-2" id="contact">
+                <h2>Contact</h2>
+            </section>
+        </main>
     </main>
     <!-- Scripts -->
     <script src="index.js" charset="utf-8"></script>

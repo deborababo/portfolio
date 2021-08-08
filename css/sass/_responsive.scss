@@ -1,13 +1,13 @@
-// Media Queries - maybe do more... this to 960 maybe applicable for smaller screens????
+// Media Queries - maybe do more... this to 960 maybe applicable for smaller screens???? see boostrap and fix some problems in that media querie
 
 @media screen and (max-width: 960px) {
   // ***************** Typography***************************
 
   h1 {
-    font-size: 5.063;
+    font-size: 3.998rem;
   }
   h2 {
-    font-size: 3.357rem;
+    font-size: 2.827rem;
   }
 
   // ***************** Header Section ***************************
@@ -25,12 +25,25 @@
     flex-direction: column;
   }
   .container-item:nth-child(1) {
-    margin-bottom: 100px;
+    align-self: flex-start;
+    flex-grow: 1;
   }
   .container-item:nth-child(2) {
-    margin-top: 100px;
+    margin-bottom: 0;
+  }
+  .container-item h2 u {
+    &:hover {
+      font-size: 3.2rem;
+    }
+  }
+  .call {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
+  // Other section
   .svg-hero {
+    transform: scale(2) rotate(25deg);
   }
 }
