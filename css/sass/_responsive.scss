@@ -24,7 +24,13 @@
   .container-hero {
     flex-direction: column;
   }
-  .container-item {
-    margin: 20px 0;
+  .container-item:nth-child(1) {
+    margin-bottom: 100px;
+  }
+  .container-item:nth-child(2) {
+    margin-top: 100px;
+  }
+
+  .svg-hero {
   }
 }

@@ -56,33 +56,33 @@ a {
 
 // Font size
 h1 {
-  font-size: 7.594rem;
+  font-size: 5.653rem;
   color: $bege-normal;
 }
 h2 {
-  font-size: 5.063rem;
-  line-height: 110%;
+  font-size: 3.998rem;
+  line-height: 120%;
   color: $yellow-normal;
 }
 h3 {
-  font-size: 3.375rem;
+  font-size: 2.827rem;
   line-height: 110%;
 }
 
 h4 {
-  font-size: 2.25rem;
+  font-size: 1.999rem;
   color: $yellow-normal;
   line-height: 120%;
 }
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.414rem;
   line-height: 140%;
 }
 h6 {
   font-size: 1rem;
   line-height: 150%;
 }
-// small, .text_small {font-size: 0.667rem;}
+// small, .text_small {font-size: 0.707rem;}
 // icons
 .fab {
   font-size: 2rem;
@@ -93,7 +93,7 @@ h6 {
   text-decoration: underline wavy $peach-normal;
   transition: 0.5s ease;
   &:hover {
-    font-size: 5.2rem;
+    font-size: 4.2rem;
     color: $peach-dark;
     text-decoration: underline wavy $yellow-dark;
     opacity: 0.8;
@@ -104,7 +104,7 @@ h6 {
 
 .call a {
   padding: 16px 24px;
-  margin-bottom: 1.5rem;
+  // margin-bottom: 1.5rem;
 
   transition: 0.5s ease;
   position: relative;
@@ -120,7 +120,7 @@ h6 {
     width: 0%;
     height: 2px;
 
-    transform: translate(32%, -50%);
+    transform: translate(32%, -0%);
     background-color: $peach-normal;
 
     transition: 0.5s ease;
