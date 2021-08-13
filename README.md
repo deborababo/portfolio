@@ -12,3 +12,10 @@ The task control of this project will be held on Github.
 - :up: update
 - :beetle: bug correction
 - :checkered_flag: release
+
+## 🚀 Technologies / practice
+
+- HTML
+- CSS
+- JavaScript
+- Sass

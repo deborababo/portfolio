@@ -1,20 +1,27 @@
 // Font-family
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: "Montez", cursive;
   font-weight: 400;
 }
-p {
-  margin-bottom: 1rem;
-}
+
+h3,
+h4,
+h5,
+h6,
 p,
 .link {
   font-family: "New Tegomin", serif;
 }
+
+p {
+  margin-bottom: 1rem;
+}
+.menu-logo h4 {
+  font-family: "Montez", cursive;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
   color: $yellow-normal;

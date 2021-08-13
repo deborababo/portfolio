@@ -464,10 +464,6 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 .grid-10,
 .grid-11,
 .grid-12,
-.grid-13,
-.grid-14,
-.grid-15,
-.grid-16,
 .grid-1-3 {
   float: left;
   margin-left: 12px;
@@ -551,23 +547,32 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     float: none;
   }
 } */
+.peach-dark {
+  color: #e38b70;
+}
+
 h1,
-h2,
+h2 {
+  font-family: "Montez", cursive;
+  font-weight: 400;
+}
+
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Montez", cursive;
-  font-weight: 400;
+h6,
+p,
+.link {
+  font-family: "New Tegomin", serif;
 }
 
 p {
   margin-bottom: 1rem;
 }
 
-p,
-.link {
-  font-family: "New Tegomin", serif;
+.menu-logo h4 {
+  font-family: "Montez", cursive;
+  font-weight: 400;
 }
 
 a {
@@ -758,6 +763,64 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.list {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  color: #c4bfa7;
+}
+
+.list p i:nth-of-type(odd) {
+  color: #e8a440;
+}
+
+.list p i:nth-of-type(even) {
+  color: #e38b70;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.list-item img {
+  max-width: 330px;
+  align-self: center;
+}
+
+.item-properties {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: start;
+}
+
+.item-properties h3 {
+  margin-left: 25px;
+}
+
+.item-properties p {
+  justify-self: start;
+  margin-top: 48px;
+  margin-left: 250px;
+}
+
+.item-properties p i {
+  margin-right: 20px;
+}
+
+.item-title {
+  display: flex;
+  align-items: center;
+}
+
+.item-title h3 {
+  margin-right: 50px;
 }
 
 .s-0 {

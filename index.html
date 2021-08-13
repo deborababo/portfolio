@@ -30,28 +30,29 @@
 
 <body>
     <main>
+        <!-- Navegation Menu -->
+        <nav class="menu ">
+            <div class="menu-left ">
+                <a href="#welcome" class="link">Welcome</a>
+                <a href="#about_me" class="link">About</a>
+            </div>
+            <div class="menu-logo ">
+                <h4>DéboraBabo.</h4>
+            </div>
+            <div class="menu-right ">
+                <a href="#selected_work" class="link">Works</a>
+                <a href="#contact" class="link">Get in touch</a>
+            </div>
+
+        </nav>
         <header class="header">
             <!-- Background Hero-->
             <section class="bg-hero-img relative">
                 <img src="/img/bg-img.svg" alt="Background sky and airplane">
 
             </section>
-            <!-- Navegation Menu -->
-            <nav class="menu ">
-                <div class="menu-left ">
-                    <a href="#welcome" class="link">Welcome</a>
-                    <a href="#about_me" class="link">About</a>
-                </div>
-                <div class="menu-logo ">
-                    <h4>DéboraBabo.</h4>
-                </div>
-                <div class="menu-right ">
-                    <a href="#selected_work" class="link">Works</a>
-                    <a href="#contact" class="link">Get in touch</a>
-                </div>
 
-            </nav>
-            <section class="container-hero hero" id="Welcome">
+            <section class="container-hero hero" id="welcome">
                 <div class="container-item mt-5">
                     <h1>Débora Babo</h1>
                 </div>
@@ -94,11 +95,55 @@
 
         </div> -->
         <main>
-            <section class="about_me container hero pl-2" id="about_me">
+
+            <section class="about_me container hero pl-2 mt-4" id="about_me">
                 <h2>About Me</h2>
             </section>
-            <section class="selected_work container hero pl-2" id="selected_work">
-                <h2>Selected Work</h2>
+            <!-- Selected Works -->
+            <section class="list container pl-2" id="selected_work">
+                <h2>Selected Works</h2>
+                <div class="list-item">
+
+                </div>
+                <div class="list-item">
+                    <div class="item-properties">
+                        <div class="item-title">
+                            <h5 class="peach-dark">.01</h5>
+                            <h3>Pricing Panel</h3>
+                        </div>
+                        <p><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> </p>
+                    </div>
+                    <div>
+                        <img src="img/Pricing-panel.png" alt="Pricing panel">
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-properties">
+                        <div class="item-title">
+                            <h5 class="peach-dark">.02</h5>
+                            <h3>Drum Kit</h3>
+                        </div>
+                        <p><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/Drum-Kit.png" alt="Drum kit">
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-properties">
+                        <div class="item-title">
+                            <h5 class="peach-dark">.03</h5>
+                            <h3>Bikcraft</h3>
+                        </div>
+                        <p><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/Bikcraft.png" alt="Bikcraft">
+                    </div>
+                </div>
+
             </section>
             <section class="contact container hero pl-2" id="contact">
                 <h2>Contact</h2>

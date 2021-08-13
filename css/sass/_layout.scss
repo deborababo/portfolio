@@ -76,3 +76,56 @@
   justify-content: center;
   align-items: center;
 }
+
+// Selected Works
+.list {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  color: $bege-normal;
+}
+
+.list p i:nth-of-type(odd) {
+  color: $yellow-dark;
+}
+.list p i:nth-of-type(even) {
+  color: $peach-dark;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.list-item img {
+  max-width: 330px;
+  align-self: center;
+}
+.item-properties {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: start;
+  //justify-items: center; //é aqui que tenho que mexer
+}
+.item-properties h3 {
+  margin-left: 25px;
+}
+.item-properties p {
+  justify-self: start;
+  margin-top: 48px;
+  margin-left: 250px;
+}
+.item-properties p i {
+  margin-right: 20px;
+}
+.item-title {
+  display: flex;
+  align-items: center;
+}
+.item-title h3 {
+  margin-right: 50px;
+}
